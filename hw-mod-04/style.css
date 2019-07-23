@@ -16,6 +16,12 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+}
+
 .clearfix::after {
     display: table;
     content: "";
@@ -33,7 +39,6 @@ html {
 }
 
 .page-header {
-    margin-top: 30px;
     margin-bottom: 85px;
 }
 
@@ -65,7 +70,7 @@ html {
 .navigation-list {
     margin: 0;
     padding: 0;
-    width: 466px;
+    /* width: 466px; */
     float: right;
     list-style: none;
 }
@@ -99,6 +104,7 @@ html {
     font-family: 'Roboto', sans-serif;
     color: #515151;
     text-align: center;
+    margin: 0;
     margin-bottom: 90px;
 }
 
@@ -212,6 +218,7 @@ html {
     line-height: 26px;
     letter-spacing: -20;
     color: #555252;
+    margin: 0;
     margin-bottom: 30px;
 }
 
@@ -225,10 +232,11 @@ html {
     margin-top: 14px;
 }
 
-
+.important-text {
+    margin: 0;
+}
 
 .btn-read-more {
-    display: inline-block;
     float: left;
     background-color: #4ec6ab;
     border: none;
