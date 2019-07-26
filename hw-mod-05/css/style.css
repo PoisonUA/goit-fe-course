@@ -16,10 +16,6 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    padding-top: 30px;
-}
-
 .clearfix::after {
     display: table;
     content: "";
@@ -27,12 +23,8 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 1110px;
     margin: 0 auto;
-}
-
-.page-header {
-    margin-bottom: 30px;
 }
 
 .navigation-area li {
@@ -44,7 +36,7 @@ body {
     float: left;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    line-height: 36px;
+    line-height: 90px;
     text-decoration: none;
     color: #0f0101;
 }
@@ -52,7 +44,6 @@ body {
 .logo {
     font-weight: 300;
     font-size: 30px;
-    margin-left: 10%;
 }
 
 .logo:before {
@@ -66,7 +57,6 @@ body {
     padding: 0;
     float: right;
     list-style: none;
-    margin-right: 10%
 }
 .navigation-list li {
     float: left;
@@ -97,29 +87,25 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-family: "FontAwesome", sans-serif;
     background-color: rgba(78, 198, 171, .65);
     border: none;
-    font-size: 48px;
-    font-weight: 200;
-    color: #fff;
     width: 105px;
     height: 105px;
     outline: none;
 }
 
 .prev {
+    background-image: url("../img/arrowleft.png");
+    background-repeat: no-repeat;
+    background-position: center;
     left: 10%;
 } 
-.prev::before {
-    content: "\f053";
-}
 
 .next {
+    background-image: url("../img/arrowright.png");
+    background-repeat: no-repeat;
+    background-position: center;
     right: 10%;
-}
-.next::before {
-    content: "\f054";
 }
 
 .slider-sliding-content {
@@ -140,6 +126,7 @@ body {
 .slider-text {
     position: absolute;
     display: inline-block;
+    margin: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -151,7 +138,7 @@ body {
     font-weight: 800;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    top: 250px;
+    top: 280px;
 }
 
 .sdescription {
@@ -209,7 +196,6 @@ body {
     background: #e9f0fd;
     width: 255px;
     margin-right: 30px;
-    margin-bottom: 30px;
 }
 
 .shop-list-item:nth-of-type(4n){
@@ -291,6 +277,7 @@ body {
 .block-button:hover {
     border: none;
     background-color: rgb(26, 188, 156);
+    cursor: pointer;
 }
 
 .block-button::before {
@@ -339,11 +326,6 @@ body {
     float: left;
     width: 50px;
     height: 50px;
-    text-align: center;
-    padding-top: 6px;
-    border-width: 1px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
     margin: 5px;
 }
 
@@ -354,12 +336,20 @@ body {
 
 .lololo {
     display: block;
+    width: 100%;
     height: 100%;
     font-family: "FontAwesome", sans-serif;
-    text-decoration: none;
     font-size: 30px;
     color: #fff;
-    text-decoration: none;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: transparent;
+    outline: none;
+}
+
+.lololo:hover {
+    cursor: pointer;
 }
 
 .buttons-area {
@@ -380,6 +370,11 @@ body {
     color: #fefefe;
     text-align: center;
     line-height: 80px;
+}
+
+.footer-content {
+    margin: 0;
+    padding: 0;
 }
 
 .footer-link, .footer-link:visited {
