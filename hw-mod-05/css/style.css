@@ -46,8 +46,7 @@ html {
     font-size: 30px;
 }
 
-.logo:before {
-    content: "m";
+.logo::first-letter {
     color: #1abc9c;
     font-weight: 800;
 }
