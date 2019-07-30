@@ -225,7 +225,11 @@ html {
 }
 
 .form_input:focus:required:invalid {
-    box-shadow: 0 0 0 2pt red;
+    outline: 4px auto #ff0000;
+}
+
+.form_input:focus:required:valid {
+    outline: 4px auto #008f0c;
 }
 
 .form_input::placeholder {
