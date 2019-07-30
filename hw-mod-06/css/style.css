@@ -24,7 +24,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
 }
 
 .logo-img {
@@ -33,7 +33,7 @@ html {
 
 .menu {
     display: flex;
-    width: 500px;
+    min-width: 500px;
     list-style: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -60,6 +60,10 @@ html {
     padding-top: 4px;
     background: #f38181;
     content: "";
+}
+
+.header {
+    margin-bottom: 80px;
 }
 
 .uppontitle {
@@ -270,6 +274,7 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
 
 .footertext {
     font-family: 'Montserrat', sans-serif;
