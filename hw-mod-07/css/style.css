@@ -144,7 +144,7 @@ html {
     display: flex;
     list-style: none;
     padding-top: 60px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
     justify-content: space-between;
 }
 
@@ -197,17 +197,14 @@ html {
 }
 
 .secondsection {
-    padding-top: 100px;
+    padding-top: 170px;
 }
-
-.sectionthird {
-    padding: 50px 0;
-  }
   
 .formsection {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 100px;
 }
 
 .form_input {
@@ -251,6 +248,12 @@ html {
     width: 240px;
     padding: 18px 0;
     margin: 0 auto;
+}
+
+.form_btn:hover {
+    background-color: rgb(177, 255, 167);
+    color: #222222;
+    cursor: pointer;
 }
 
 .form_textarea {
