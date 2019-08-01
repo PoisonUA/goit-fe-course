@@ -1,0 +1,107 @@
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding: 10px 10px;
+    }
+
+    .nav-menu {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 30px 30px;
+        margin-bottom: 130px;
+    }
+
+    .site-logo {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header-description {
+        width: 520px;
+        font-size: 52px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+     }
+
+     .header-text {
+        font-size: 24px;
+        margin-bottom: 30px;
+     }
+
+     .button-cont {
+        padding-bottom: 220px;
+    }
+
+    .header-btn {
+        margin-bottom: 0;
+    }
+
+    .team-title {
+        margin-bottom: 35px;
+    }
+
+    .partners-area {
+        justify-content: space-around;
+        padding: 0 110px;
+    }
+
+    .partners-items {
+        width: 256px;
+        padding: 0 20px;
+        margin-bottom: 15px;
+    }
+
+    .partner-about {
+        padding: 0;
+    }
+
+    .person-01 {
+        order: 1;
+    }
+
+    .person-02 {
+        order: 3;
+    }
+
+    .person-03 {
+        order: 2;
+    }
+
+    .person-04 {
+        order: 4;
+    }
+   
+    .footer-btn {
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 940px;
+        padding: 0;
+    }
+
+    .nav-menu {
+        padding: 50px 0px;
+        margin-bottom: 80px;
+    }
+
+    .button-cont {
+        padding-bottom: 230px;
+    }
+
+    .partners-area {
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .partners-items {
+        width: 220px;
+        padding: 0;
+    }
+
+    .other-partners-btn {
+        width: 200px;
+    }
+}
