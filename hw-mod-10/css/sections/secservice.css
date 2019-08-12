@@ -30,7 +30,7 @@
 }
 
 .services-list__ico1::before {
-    background-image: url("../../../img/ico-01.png");
+    background-image: url("../../img/ico-01.png");
 }
 
 .services-list__ico2::before {
@@ -42,7 +42,7 @@
 }
 
 .services-list__ico4::before {
-    background-image: url("../../img/img/ico-04.png");
+    background-image: url("../../img/ico-04.png");
 }
 
 .services-list__ico5::before {
