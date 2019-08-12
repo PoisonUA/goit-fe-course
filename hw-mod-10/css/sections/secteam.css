@@ -1,0 +1,104 @@
+
+.secteam__sometext {
+    width: 980px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #999999;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.secteam__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+
+.secteam__hovcontainer {
+    display: flex;
+    transition: transform 200ms linear, 
+                box-shadow 200ms linear;
+}
+
+.secteam__hovcontainer_hover:hover {
+    box-shadow: 10px 10px 0px #95e1d3;
+    transform: translate(-10px, -10px);
+}
+
+.secteam__socialcover {
+    display: flex;
+    list-style: none;
+    width: 380px;
+    height: 470px;
+    background: linear-gradient(180deg, rgba(243, 129, 129, .9), rgba(252, 227, 138, .9));
+    position: absolute;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 200ms linear;
+}
+
+.secteam__socialcover_hover:hover {
+    opacity: 1;
+}
+
+.secteam__photo {
+    font-size: 0;
+}
+
+.secteam__socialicon {
+    width: 56px;
+    height: 56px;
+    background-color: #fce38a;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 2px;
+    transition: background-color 200ms linear;
+}
+
+.secteam__sociallink {
+    display: block;
+    width: 56px;
+    height: 56px;
+}
+
+.secteam__membername {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;  
+    color: #333333;
+    line-height: 36px;
+    text-align: center;
+}
+
+.secteam__memberposition {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300i;
+    font-style: italic;
+    font-size: 15px;
+    color: #999999;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.secteam__shareimg {
+    width: 25px;
+    height: 25px;
+    fill: #f38181;
+}
+
+.secteam__socialicon_hover:hover .secteam__shareimg_white {
+    fill: #ffffff;
+}
+
+.secteam__link {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+}

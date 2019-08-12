@@ -1,0 +1,62 @@
+.secservice {
+    padding-top: 30px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.services-list__item {
+    display: flex;
+    width: 390px;
+    margin-bottom: 100px;
+}
+
+.services-list__item_before::before {
+    min-width: 90px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    content: "";
+}
+
+.services-list__ico1::before {
+    background-image: url("/img/ico-01.png");
+}
+
+.services-list__ico2::before {
+    background-image: url("/img/ico-02.png");
+}
+
+.services-list__ico3::before {
+    background-image: url("/img/ico-03.png");
+}
+
+.services-list__ico4::before {
+    background-image: url("/img/ico-04.png");
+}
+
+.services-list__ico5::before {
+    background-image: url("/img/ico-05.png");
+}
+
+.services-list__ico6::before {
+    background-image: url("/img/ico-06.png");
+}
+
+.services-list__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;  
+    color: #333333;
+}
+
+.services-list__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #999999;
+}

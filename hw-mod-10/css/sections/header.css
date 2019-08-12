@@ -1,0 +1,123 @@
+.logomenu-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 150px;
+}
+
+.logo-container__link {
+    display: block;
+}
+
+.logo-container__link--hover:hover,
+.logo-container__link--hover:focus {
+    cursor: pointer;
+}
+
+.logo-container__img {
+    display: block;
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    min-width: 620px;
+    justify-content: space-between;
+}
+
+.header-menu__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header-menu__link {
+    display: block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.header-menu__link--hover:hover,
+.header-menu__link--hover:focus {
+    color: #fce38a;
+    cursor: pointer;
+}
+
+.header-menu__linkico {
+    display: flex;
+}
+
+.header-menu__link--hover:hover::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    bottom: 0px;
+    background-color: #fce38a;
+}
+
+.header-menu__img {
+    width: 16px;
+    height: 32px;
+    fill: #ffffff;
+}
+
+.header-menu__img_hover:hover,
+.header-menu__img_hover:focus {
+    fill: #fce38a;
+    cursor: pointer;
+}
+
+.headerdecor {
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+
+.headerdecor__title {
+    font-family: 'KaushanScript', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: capitalize;
+    line-height: 110px;
+    text-align: center;
+}
+
+.headerdecor__text {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.headerdecor__button {
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.headerdecor__button_hover:hover {
+    background: rgba(255, 255, 255, .2);
+}
