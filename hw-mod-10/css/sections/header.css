@@ -1,6 +1,10 @@
 .logomenu-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 20px;
     margin-bottom: 150px;
 }
@@ -20,15 +24,23 @@
 
 .header-menu {
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     min-width: 620px;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .header-menu__item {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .header-menu__link {
@@ -49,6 +61,8 @@
 }
 
 .header-menu__linkico {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 

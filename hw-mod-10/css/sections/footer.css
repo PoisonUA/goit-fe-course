@@ -1,8 +1,14 @@
 .secfooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     min-height: 60px;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border-top: 1px solid #e5e5e5;
 }
 
@@ -22,6 +28,8 @@
 .secfooter__form {
     width: 380px;
     height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -36,6 +44,22 @@
     color: #757575;
     padding-left: 10px;
     outline: none;
+}
+
+.secfooter__field_placeholder::-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+.secfooter__field_placeholder::-moz-placeholder {
+    color: #cccccc;
+}
+
+.secfooter__field_placeholder:-ms-input-placeholder {
+    color: #cccccc;
+}
+
+.secfooter__field_placeholder::-ms-input-placeholder {
+    color: #cccccc;
 }
 
 .secfooter__field_placeholder::placeholder {
@@ -55,4 +79,3 @@
     color: #ffffff;
     text-transform: uppercase;
 }
-
