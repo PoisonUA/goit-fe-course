@@ -1,4 +1,4 @@
-@import "./css/helpers/normalize.css";
+@import "../css/helpers/normalize.css";
 @import "./css/helpers/reset.css";
 @import "./css/helpers/fonts.css";
 @import "./css/sections/regular.css";
