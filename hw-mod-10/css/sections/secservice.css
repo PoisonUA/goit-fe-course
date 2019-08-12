@@ -30,27 +30,27 @@
 }
 
 .services-list__ico1::before {
-    background-image: url("/img/ico-01.png");
+    background-image: url("./img/ico-01.png");
 }
 
 .services-list__ico2::before {
-    background-image: url("/img/ico-02.png");
+    background-image: url("./img/ico-02.png");
 }
 
 .services-list__ico3::before {
-    background-image: url("/img/ico-03.png");
+    background-image: url("./img/ico-03.png");
 }
 
 .services-list__ico4::before {
-    background-image: url("/img/ico-04.png");
+    background-image: url("./img/ico-04.png");
 }
 
 .services-list__ico5::before {
-    background-image: url("/img/ico-05.png");
+    background-image: url("./img/ico-05.png");
 }
 
 .services-list__ico6::before {
-    background-image: url("/img/ico-06.png");
+    background-image: url("./img/ico-06.png");
 }
 
 .services-list__title {
