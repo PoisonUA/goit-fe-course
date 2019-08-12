@@ -90,6 +90,10 @@
     transition: background-color 200ms linear;
 }
 
+.secteam__socialicon_red:hover {
+    background-color: #f38181;
+}
+
 .secteam__sociallink {
     display: block;
     width: 56px;
