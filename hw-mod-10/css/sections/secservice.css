@@ -34,7 +34,7 @@
 }
 
 .services-list__ico2::before {
-    background-image: url("./img/ico-02.png");
+    background-image: url("/img/ico-02.png");
 }
 
 .services-list__ico3::before {
